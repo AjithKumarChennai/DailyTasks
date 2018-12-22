@@ -15,6 +15,8 @@ public class FirstClass {
 			
 			if(!list.contains(ival[i])) {
 				
+				list.add(ival[i]);
+				
 				for(int j=0; j<ival.length; j++) {
 					
 					if(ival[i] == ival[j]) {
@@ -28,8 +30,6 @@ public class FirstClass {
 			}
 			
 			if(count > 1) {
-				
-				list.add(ival[i]);
 				
 				System.out.println(ival[i] + " repeated " + count + " times ");
 				
